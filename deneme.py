@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 
 # CSV dosyasını yükleme
 #data = pd.read_csv("btcData.csv", nrows=6470)  # CSV dosyanızın adını buraya yazın
-data = pd.read_csv("/Users/zeynep/Desktop/yazlab/BitPredictor/btcData.csv", nrows=6470)
-
+#data = pd.read_csv("/Users/zeynep/Desktop/yazlab/BitPredictor/btcData.csv", nrows=6470)
+data = pd.read_csv("btcData.csv", nrows=6470)
 print(data.head())
 
 # Tarih ve fiyat sütunlarını kontrol et

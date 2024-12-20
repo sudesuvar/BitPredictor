@@ -8,7 +8,8 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import time
 
 # Veriyi yükleme
-data = pd.read_csv("/Users/zeynep/Desktop/yazlab/BitPredictor/btcData.csv", nrows=6470)
+#data = pd.read_csv("/Users/zeynep/Desktop/yazlab/BitPredictor/btcData.csv", nrows=6470)
+data = pd.read_csv("btcData.csv", nrows=6470)
 data['Date'] = pd.to_datetime(data['Date'])
 data.set_index('Date', inplace=True)
 
